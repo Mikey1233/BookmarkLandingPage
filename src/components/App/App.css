@@ -10,7 +10,7 @@ body {
    scroll-behavior: smooth;
   }
   html{
-    font-size: 95%;
+    font-size: 100%;
   }
   p{
     color: hsl(225, 5%, 54%);

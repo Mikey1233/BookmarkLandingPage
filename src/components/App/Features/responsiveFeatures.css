@@ -21,7 +21,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         padding-top: 1rem;
-        gap: 3rem;
+        gap: 5rem;
         padding-bottom: 1rem;
       }
       .toggle-article {
