@@ -45,15 +45,14 @@
 }
   .list-items {
     width: 100%;
-    /* display: none; */
     background-color: rgba(41, 41, 108, 0.96);
     flex-direction: column;
     transition: all .4s;
     justify-content: center;
     gap: unset;
-    height: 100vh;
     position: absolute;
     top: -100%;
+    min-height: 100vh;
     z-index: 1;
     left: 0;
     margin-right: unset;
@@ -116,7 +115,7 @@
     justify-content: center;
   }
   .btn1,.btn2{
-    padding: .7rem 1.7rem;
+    padding: .7rem 1rem;
 }
 .start .email{
   
