@@ -10,12 +10,9 @@
       .tab {
         flex-direction: column;
         gap: 1rem;
-        
-        /* border-bottom: px solid rgb(140, 136, 136); */
       }
       .tab span {
         color: hsl(220, 3%, 46%);
-        /* border-bottom: 2px solid blueviolet; */
       }
       .toggle-tab {
         grid-template-columns: 1fr;

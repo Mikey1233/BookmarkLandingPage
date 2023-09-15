@@ -18,9 +18,12 @@
   grid-template-rows: 30px max-content;
   position: relative;
   gap: 1rem;
+  cursor: pointer;
   transition: all 0.4s;
   overflow: hidden;
+  white-space:wrap;
 }
+
 .box div > p{
   padding-bottom: 1rem;
 }

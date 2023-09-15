@@ -12,6 +12,20 @@ body {
   html{
     font-size: 100%;
   }
+  html{ 
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: .6rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background:#333333d8;
+    border-radius: 5rem;
+} 
   p{
     color: hsl(225, 5%, 54%);
     transition: all .4s;

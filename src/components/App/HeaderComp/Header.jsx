@@ -9,6 +9,7 @@ import LiComp from "./LiComp";
 function Header() {
   const [bar, setBar] = useState(true);
   const liElem = ["Features", "Pricing", "Contact"];
+    window.addEventListener('scroll',()=>setBar(true))
   return (
     <header className="header">
       <nav className="nav-bar">

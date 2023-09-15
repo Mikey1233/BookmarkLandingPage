@@ -1,10 +1,9 @@
-import React from "react";
-// import "./Features/Features.css";
-import BlueBtn from "./BlueBtn";
-
-function Tab({ header, image, text }) {
+import React from 'react'
+import BlueBtn from '../BlueBtn'
+function Tab({head,image,header,text,index}) {
   return (
-    <div className="toggle-tab">
+    <div>
+      <div  className={`${head!==index?'toggle-tab hidden':'toggle-tab'}`}>
       <div className="blue-container">
         <img src={image} alt="illustration-features-1" className="image1" />
         <div className="blue-spot"></div>
@@ -17,7 +16,8 @@ function Tab({ header, image, text }) {
         </div>
       </div>
     </div>
-  );
+    </div>
+  )
 }
 
-export default Tab;
+export default Tab

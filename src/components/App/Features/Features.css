@@ -1,4 +1,3 @@
-/* @import url('responsiveFeatures.css'); */
 
 .Features {
   padding: 2rem 0;
@@ -79,4 +78,7 @@
     height: 230px;
     border-radius: 0 0 20% 0;
     background-color: hsl(231, 69%, 60%);
+}
+.hidden{
+  display: none;
 }
