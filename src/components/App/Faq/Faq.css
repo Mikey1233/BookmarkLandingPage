@@ -1,0 +1,49 @@
+.Faq-section {
+  padding: 1rem 4rem;
+  display: grid;
+  place-items: center;
+}
+.questionContainer {
+  display: grid;
+  justify-items: center;
+
+  transition: all 0.5s;
+  padding-bottom: 10px;
+  margin-bottom: 1rem;
+}
+.box {
+  display: grid;
+  border-bottom: 1px solid rgb(174, 173, 173);
+  width: 50%;
+  grid-template-rows: 30px max-content;
+  position: relative;
+  gap: 1rem;
+  transition: all 0.4s;
+  overflow: hidden;
+}
+.box div > p{
+  padding-bottom: 1rem;
+}
+.arrow {
+  position: absolute;
+  right: 17px;
+  top: 3px;
+  transition: all 0.5s;
+  width: 1rem;
+}
+.arrow img {
+  width: 100%;
+}
+.transit {
+  max-height: 0rem;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  display: grid;
+  align-items: center;
+}
+.smooth {
+  max-height: 9rem;
+}
+.rotate {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,25 @@
+@import url('Faq.css');
+@media screen and (max-width:768px){
+    .Faq-section {
+        padding: 2rem 1rem;
+      }
+      .box {
+        width: 100%;
+        grid-template-rows: 35px max-content;
+        transition: all 0.4s;
+        overflow: hidden;
+      }
+      .box div span{
+        font-size: 0.85rem;
+      }
+      .q-box{
+        margin: 1rem 0;
+      }
+      .transit{
+        align-items: unset;
+      }
+      .smooth {
+        max-height: 15rem;
+        height: unset;
+      }
+}

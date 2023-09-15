@@ -1,0 +1,142 @@
+/* responsive for tablet 768 */
+@import url('Header.css');
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 120%;
+  }
+  body{
+    background-color: white;
+  }
+  .logo{
+    position: relative;
+    z-index: 10;
+}
+  .header {
+    grid-template-rows: 70px 1fr;
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu{
+    display: block;
+    position: relative;
+    z-index: 1;
+    padding: 7px 6px;
+  }
+  .menu.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg)
+}
+.menu.active .bar:nth-child(2) {
+    opacity: 0;
+}
+.menu.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+.menu.active {
+    background-color: rgba(68, 66, 66,0.4);
+    /* padding: 7px 6px; */
+    border-radius: 50%;
+}
+  .list-items {
+    width: 100%;
+    /* display: none; */
+    background-color: rgba(41, 41, 108, 0.96);
+    flex-direction: column;
+    transition: all .4s;
+    justify-content: center;
+    gap: unset;
+    height: 100vh;
+    position: absolute;
+    top: -100%;
+    z-index: 1;
+    left: 0;
+    margin-right: unset;
+    padding: 1rem;
+  }
+  .list-items.active{
+    top: 0;
+  }
+  .list-items li {
+    font-size: 1.5rem;
+    padding: 1rem;
+    letter-spacing: 3px;
+    border-top: 0.5px solid #f6f3f3;
+    border-bottom: 0.5px solid #f6f3f3;
+    text-align: center;
+    width: 100%;
+  }
+  .list-items li a {
+    color: white;
+  }
+  .list-items .Btn {
+    padding: 0.5rem 1.2rem;
+    margin: 1rem;
+    background-color: transparent;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 2px;
+    font-size: 1rem;
+    border: 1.5px solid #f6f3f3;
+  }
+  .list-items .Btn:hover {
+    background-color: transparent;
+    color: hsl(0, 94%, 66%);
+  }
+  .nav-bar{
+    padding: 1rem;
+  }
+  .hero-article {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0;
+  
+  }
+
+  /*  */
+  .headerLogo {
+    width: 100%;
+  }
+  .hero-svg {
+    position: relative;
+    overflow: hidden;
+  }
+  .blueBackground {
+    right: -30%;
+    top: 25%;
+    height: 220px;
+    border-radius: 0 0 0 30%;
+  }
+  .btn-container{
+    justify-content: center;
+  }
+  .btn1,.btn2{
+    padding: .7rem 1.7rem;
+}
+.start .email{
+  
+  width: 100%;
+}
+  .hero-text {
+    gap: 1rem;
+    margin-top: 4rem;
+    padding-left: 0rem;
+    grid-row: 2/3;
+    text-align: center;
+    padding: 10px;
+  }
+  .hero-text > p {
+    padding-right: 0;
+    padding: 10px;
+  }
+  .hero-text > h1 {
+    font-size: 2rem;
+  }
+ 
+}
+

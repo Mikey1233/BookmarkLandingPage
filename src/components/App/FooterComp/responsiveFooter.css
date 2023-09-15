@@ -1,0 +1,65 @@
+@import url('Footer.css');
+@media screen and (max-width:768px) {
+    .footer-wrapper{    
+        margin-top: 2rem;
+      }
+      .footer-start {
+       
+        padding: 3rem 1rem;
+      }
+      .start {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+    
+      .start h1{
+          font-size: 1.8rem;
+          max-width: unset;
+      }
+      .start .email{
+          padding:0.5rem ;
+          width: 15rem;
+          margin-right: 10px;
+          outline: transparent;
+      }
+      .start .submit{
+       margin: 1rem;
+      }
+      .start .submit:hover{
+          background-color: hsl(0, 76%, 71%);
+      }
+      .footer-end{
+          padding: 3rem 1rem;
+          flex-direction: column;
+          justify-content: space-between;
+      }
+      .footer-list{
+          flex-direction: column;
+          gap: 1rem;
+          place-items: center;
+      }
+      .footer-list li a{
+          color: white;
+          text-decoration: none;
+          transition: all .4s;
+      }
+      .footer-list li a:hover{
+          color: hsl(0, 94%, 66%);
+      }
+      .first{
+          flex-direction: column;
+          gap: 2rem;
+          place-items: center;
+          margin-bottom: 1rem;
+      }
+      .logoname{
+          color: white;
+      }
+      .media{
+          transition: all .4s;
+      }
+      .media:hover{
+          transform: scale(1.2);
+      }
+}

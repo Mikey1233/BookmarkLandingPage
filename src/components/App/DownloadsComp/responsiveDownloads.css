@@ -1,0 +1,14 @@
+@import url('Downloads.css');
+@media screen and (max-width:768px){
+    .download-section{
+        padding: 2rem 1rem;
+    }
+    .cardContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding:1rem;
+        gap: 1.5rem;
+    }
+    
+}

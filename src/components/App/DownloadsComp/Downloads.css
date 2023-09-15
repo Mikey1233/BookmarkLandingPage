@@ -1,0 +1,9 @@
+.download-section{
+    padding: 4rem 3rem;
+}
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    padding:3rem;
+    gap: 1.5rem;
+}
