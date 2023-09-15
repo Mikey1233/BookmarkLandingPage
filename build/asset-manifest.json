@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.bcd73989.css",
+    "main.css": "/static/css/main.ad5dffed.css",
     "main.js": "/static/js/main.eea3f485.js",
     "static/js/77.fc4c1622.chunk.js": "/static/js/77.fc4c1622.chunk.js",
     "static/media/illustration-features-tab-3.svg": "/static/media/illustration-features-tab-3.a4206aab7946773b29b702492d2d014b.svg",
@@ -15,12 +15,12 @@
     "static/media/icon-facebook.svg": "/static/media/icon-facebook.8b45ba94b5f75f0d38a9bbcc11df55c2.svg",
     "static/media/logo-opera.svg": "/static/media/logo-opera.ff14e4763945338fe002017c72e7e597.svg",
     "static/media/icon-arrow.svg": "/static/media/icon-arrow.8174203a5d4fc44f5247b825de6e2158.svg",
-    "main.bcd73989.css.map": "/static/css/main.bcd73989.css.map",
+    "main.ad5dffed.css.map": "/static/css/main.ad5dffed.css.map",
     "main.eea3f485.js.map": "/static/js/main.eea3f485.js.map",
     "77.fc4c1622.chunk.js.map": "/static/js/77.fc4c1622.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcd73989.css",
+    "static/css/main.ad5dffed.css",
     "static/js/main.eea3f485.js"
   ]
 }
