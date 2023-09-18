@@ -9,6 +9,7 @@ import LiComp from "./LiComp";
 function Header() {
   const [bar, setBar] = useState(true);
   const liElem = ["Features", "Pricing", "Contact"];
+  let key = 0;
     window.addEventListener('scroll',()=>setBar(true))
   return (
     <header className="header">
@@ -19,7 +20,7 @@ function Header() {
 
         <ul className={`${bar ? "list-items" : "list-items active"}`}>
           {liElem.map((arr) => (
-            <LiComp name={arr} setBar={setBar} bar={bar} />
+            <LiComp name={arr} setBar={setBar} bar={bar} key={key++}/>
           ))}
           <button type="menu" className="Btn">
             {" "}
@@ -32,9 +33,9 @@ function Header() {
             bar ? setBar(false) : setBar(true);
           }}
         >
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
         </div>
       </nav>
 

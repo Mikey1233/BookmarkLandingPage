@@ -3,16 +3,12 @@ import React from "react";
  import TitleComponent from "../TitleComponent";
 import "./responsiveDownloads.css";
  
-
-
-// import QuestionComponent from "./QuestionComponent";
 ////////////images
 import chrome from "../../images/logo-chrome.svg";
 import firefox from "../../images/logo-firefox.svg";
 import opera from "../../images/logo-opera.svg";
 ///////////////
 const macth= window.matchMedia('(max-width:768px)')
-console.log(macth)
 function Downloads() {
   let list;
   

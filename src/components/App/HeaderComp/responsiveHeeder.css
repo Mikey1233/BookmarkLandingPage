@@ -44,22 +44,27 @@
     border-radius: 50%;
 }
   .list-items {
-    width: 100%;
+    width: 0;
     background-color: rgba(41, 41, 108, 0.96);
     flex-direction: column;
     transition: all .4s;
     justify-content: center;
     gap: unset;
+    overflow: hidden;
     position: absolute;
     top: 0;
     min-height: 100vh;
     z-index: 1;
-    left: -100%;
+    /* left: -100%; */
     margin-right: unset;
-    padding: 0 1rem;
+    margin: 0;
+    left: 0;
+    /* padding: 0 1rem; */
+    padding: 0;
   }
   .list-items.active{
-    left: 0;
+    /* left: 0; */
+    width: 100%;
   }
   .list-items li {
     font-size: 1.5rem;
